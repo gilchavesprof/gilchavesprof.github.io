@@ -1,0 +1,135 @@
+html, body{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{
+    width: 3.5%;
+    margin-top: 0.3%;
+    margin-left: 1.5%;
+}
+
+#menu{    
+    float: right;
+    margin-right: 3%;
+    list-style: none;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+li{
+    float: left;
+    padding: 20px 10px 22px 10px;
+}
+
+li:hover{
+    background-color: #5F1AB4;
+}
+
+a:hover{
+    background-color: #931BAA;
+}
+
+#imagem_fundo{
+    background: url(img/fundo.jpg);
+    background-size: 1500px;
+    height: 597px;
+    text-align: center;
+    padding: 30px;
+}
+
+#titulo{
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: black;
+    padding-top: 13%;
+    font-size: 50px;
+    line-height: 0.6;    
+}
+
+#subtitulo{
+    color: white;
+    font-weight: 100;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px white solid;
+}
+
+#acao{
+    color: white;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.fonte{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.icone{
+    width: 70px;
+}
+
+section{
+    padding: 30px;
+}
+
+.destaque{
+    background-color: blue;
+    float: left;
+}
+
+.img{
+    width: 90%;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+
+.colunaquatro{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+}
+
+.colunatres{
+    float: left;
+    padding: 0 2%;
+    position: relative;
+    width: 29%;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+footer{
+    background-color: #5F1AB4;
+    float: left;
+    width: 100%;
+}
+
+.cordafonte{
+    color: white;
+}
